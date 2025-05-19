@@ -1,8 +1,7 @@
 ---
-title: "NAME's Introduction"
-author: "NAME"
-date: "2024-02-05"
-categories: [Introduction]
+title: "Jane's Introduction"
+author: "Jane Doe"
+date: last-modified
 ---
 
 Write your answers to the questions here. Don't forget to update the metadata information above. Look through the [Markdown Guide](https://quarto.org/docs/authoring/markdown-basics.html) to format your text the way that you want it to be rendered.
@@ -36,7 +35,7 @@ It's also important that you develop some personal learning objectives for your 
 
 ## Before Submitting Your Assignment
 
--   Please update everything except the `categories: [Introduction]` in the YAML metadata section of your `NAME_Introductions.qmd` file.
--   Replace the `NAME` section of the `NAME_Introductions.qmd` file with your first name.
+-   Please update your name and title in the YAML metadata section of your `introductions.qmd` file.
+-   Keep the file name as `introduction.qmd`.
 -   If you are including any images, place them in the `imgs\` folder and follow the guidelines discussed in the [Blog Writing Guidelines post](add%20link) for adding images.
 -   Render the blog post locally on your device to make sure that it can render correctly. If you are in RStudio, you can use the Render icon or hit `Ctrl+Shift+K` on Windows and `Shift-Command-K` on Mac.
