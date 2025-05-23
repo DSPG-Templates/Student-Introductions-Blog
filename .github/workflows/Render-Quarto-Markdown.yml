@@ -43,14 +43,14 @@ jobs:
           GH_PAT: ${{ secrets.BLOG_PAT_TOKEN }}
         run: |
           echo "ATTEMPTING FILE PUSH"
-          cd DSPG-2025/Private-Blogss/Assignments/
+          cd DSPG-2025/Private-Blogs/Assignments/
           rm -rf ${{ github.event.repository.name }} || true 
           mkdir ${{ github.event.repository.name }}
           cd ${{ github.event.repository.name }}
           cp ../../../../$MARKDOWN_DOCUMENT .
-          cp -r ../../../../Data/ ./Data
+          cp -r ../../../../data/ ./Data
           cp -r ../../../../imgs ./imgs
           git add .
           git status 
           git commit -m "Add markdown file output, data folder, and images of ${{ github.actor }}"
-          git push https://${{ github.actor }}:${{ secrets.GH_PAT }}@github.com/DSPG-2025/Private-Blogss.git
+          git push https://${{ github.actor }}:${{ secrets.GH_PAT }}@github.com/DSPG-2025/Private-Blogs.git
