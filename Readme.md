@@ -1,5 +1,5 @@
 ## Assignment Objectives
-For your first submission, you are asked to submit an introductory blog of yourself to present to your fellow DSPG members. Note that these blogs will be hosted on the DSPG 2024 webpage for public viewing so that anyone interested in the program (future participants, clients, recruiters) may also learn about you. The objective is to use these blogs as a way to demonstrate your learning and work progress by documenting your accomplishments throughout the program. 
+For your first submission, you are asked to submit an introductory blog of yourself to present to your fellow DSPG members. Note that these blogs will be hosted on the DSPG 2025 webpage for public viewing so that anyone interested in the program (future participants, clients, recruiters) may also learn about you. The objective is to use these blogs as a way to demonstrate your learning and work progress by documenting your accomplishments throughout the program. 
 
 ## What to Include in This Blog
 As you prepare your introductions please make sure to include the following information about yourself. Feel free to add any pictures and links you think would make the blogs more presentable. 
@@ -23,7 +23,7 @@ It's also important that you develop some personal learning objectives for your 
 
 ## Before Submitting Your Assignment 
 
-- Please update everything except the `categories: [Introduction]` in the YAML metadata section of your `NAME_Introductions.qmd` file. 
-- Replace the `NAME` section of the `NAME_Introductions.qmd` file with your first name. 
-- If you are including any images, place them in the `imgs\` folder and follow the guidelines discussed in the [Blog Writing Guidelines post](add link) for adding images. 
-- Render the blog post locally on your device to make sure that it can render correctly. 
+-   Please update your name and title in the YAML metadata section of your `introductions.qmd` file.
+-   Keep the file name as `introduction.qmd`.
+-   If you are including any images, place them in the `imgs\` folder and follow the guidelines discussed in the [Blog Writing Guidelines post](add%20link) for adding images.
+-   Render the blog post locally on your device to make sure that it can render correctly. If you are in RStudio, you can use the Render icon or hit `Ctrl+Shift+K` on Windows and `Shift-Command-K` on Mac.
